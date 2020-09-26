@@ -1,13 +1,13 @@
 import React from 'react';
-import NavBarFunc from './components/NavBarFunc'
+import NavBar from './components/NavBar'
 import AuthContextProvider from './contexts/AuthContext';
 import ThemeContextProvider from './contexts/ThemeContext';
 function App() {
   return (
     <div className="App">
-      <NavBarFunc />
       <AuthContextProvider>
         <ThemeContextProvider>
+          <NavBar />
         </ThemeContextProvider>
       </AuthContextProvider>
     </div>
