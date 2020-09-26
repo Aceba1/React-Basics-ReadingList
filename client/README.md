@@ -1,7 +1,9 @@
 [] make a class component
-[] make function component
-[] implement useState
-[] implement useEffect
+  [] implement class state
+  [] implement LCmethods
+[] make function component 
+  [] implement useState
+  [] implement useEffect
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
