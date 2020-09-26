@@ -1,7 +1,7 @@
 import React from 'react';
 
 import NavBar from './components/NavBar';
-//import BookList from './components/BookList'
+import BookList from './components/BookList'
 
 import BookContextProvider from './contexts/BookContext';
 
@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <BookContextProvider>
         <NavBar />
+        <BookList />
       </BookContextProvider>
     </div>
   );
