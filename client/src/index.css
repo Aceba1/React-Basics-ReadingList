@@ -13,7 +13,6 @@ body {
   background: #4c2a4c;
   max-width: 600px;
   margin: 32px auto;
-  text-align: center;
   color: #eee;
 }
 
@@ -25,4 +24,49 @@ body {
 
 .navbar h1{
   margin: 10px 0;
+}
+
+nav{
+  padding: 5px;
+}
+nav ul {
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.book-list {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.book-list ul {
+  padding: 0;
+  list-style-type: none;
+}
+.book-list .title {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.book-list .author {
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+.book-list li {
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 8px;
+  background: #6d3d6d;
+}
+
+.book-list li:hover {
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+
+.empty {
+  margin: 20px;
+  text-align: center;
 }
