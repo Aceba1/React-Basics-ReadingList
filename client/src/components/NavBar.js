@@ -5,7 +5,7 @@ export default function NavBar() {
   const {books} = useContext(BookContext);
   return (
     <div className="navbar">
-      <h1>Ninga Reading List</h1>
+      <h1>Faba Reading List</h1>
       <p>Currently you have {
           books.length
         } book{
